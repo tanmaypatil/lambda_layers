@@ -1,0 +1,26 @@
+{
+  "name": "lambda_layers",
+  "version": "1.0.0",
+  "description": "lambda layers for common code between multiple lambda functions .",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanmaypatil/lambda_layers.git"
+  },
+  "keywords": [
+    "alarm",
+    "system"
+  ],
+  "author": "Tanmay Patil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanmaypatil/lambda_layers/issues"
+  },
+  "homepage": "https://github.com/tanmaypatil/lambda_layers#readme",
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
+}
