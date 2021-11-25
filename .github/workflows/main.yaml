@@ -33,7 +33,7 @@ jobs:
         path : ./nodejs 
     - name: upload lambda layers zip file
       run: |
-       aws lambda  publish-layer-version --layer-name alarm-layer --zip-file fileb://lambda_layers.zip
+       aws lambda  publish-layer-version --layer-name node_modules --zip-file fileb://lambda_layers.zip
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
