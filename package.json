@@ -12,7 +12,8 @@
   },
   "keywords": [
     "alarm",
-    "system"
+    "system",
+    "twitter"
   ],
   "author": "Tanmay Patil",
   "license": "ISC",
@@ -22,11 +23,12 @@
   "homepage": "https://github.com/tanmaypatil/lambda_layers#readme",
   "dependencies": {
     "@aws-sdk/client-cloudwatch-logs": "^3.48.0",
-    "aws-sdk": "^2.1018.0",
+    "aws-sdk": "^2.1140.0",
     "axios": "^0.24.0",
     "date-fns": "^2.25.0",
     "dotenv": "^10.0.0",
     "querystring": "^0.2.1",
-    "uuid": "^8.3.2"
+    "uuid": "^8.3.2",
+    "needle": "^3.1.0"
   }
 }
